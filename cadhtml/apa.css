@@ -1,0 +1,33 @@
+ div{
+        border:solid 1px;
+        border-radius: 10px;
+        background-color: black;
+        margin: 50px;
+        padding: 50px;
+        width: 500px;
+      }
+
+      h3{
+        color: white;
+      }
+
+      span{
+        color: orange;
+      }
+      
+      p{
+        color: gray;
+      }
+
+      a{
+        border: solid 1px;
+        background-color: orange;
+        padding: 9px;
+        border-radius:10px;
+        text-decoration: none;
+      }
+      main{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+      }
