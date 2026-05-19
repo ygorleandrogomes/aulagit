@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carteira.css">
+    <title>Carteira</title>
+</head>
+
+<body>
+    <div class="container-main" id="areaCartao">
+        <div class="interno" id="meuCartao">
+            <div class=" face frente">
+                <header>
+                    <h1 style="text-align: center;">CARTEIRA DE ESTUDANTE</h1>
+                    <h1> SENAC </h1>
+                </header>
+
+                <hr>
+                <div class="img">
+                    <img src="/img/WhatsApp Image 2026-05-05 at 17.07.04.jpeg" width="200">
+                    <div class="text">
+                        <h3><span>Nome:</span> Ygor Leandro Gomes de Oliveira Viana</h3>
+                        <p><span>CPF:</span> 842.404.203-23</p>
+                        <p><span>Curso:</span> Programador Web</p>
+                        <p><span>Instituição:</span> Senac</p>
+                    </div>
+                </div>
+
+                <hr>
+                <footer>
+                    <h1 style="text-align: right;">2026</h1>
+                </footer>
+            </div>
+            <div class="face verso">
+                <header>
+                    <h1>Verso</h1>
+                    <h1 style="text-align: right;"> Documento <br>estudantil</h1>
+                </header>
+                <hr>
+                <div class="preto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const cartao = document.getElementById('meuCartao');
+        const areaCartao = document.getElementById('areaCartao');
+
+        areaCartao.addEventListener('click', function(){
+            cartao.classList.toggle('girar');
+        });
+    </script>
+</body>
+
+</html>
